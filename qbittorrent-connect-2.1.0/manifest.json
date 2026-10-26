@@ -1,0 +1,55 @@
+{
+  "manifest_version": 3,
+  "name": "Torrent Connect",
+  "version": "2.1.0",
+  "minimum_chrome_version": "123",
+  "description": "Envoie tes torrents à ton client (qBittorrent, Transmission, Deluge…), range les séries et alerte des nouveaux épisodes.",
+  "permissions": [
+    "downloads",
+    "storage",
+    "contextMenus",
+    "notifications",
+    "declarativeNetRequest",
+    "alarms"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "src/background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "Torrent Connect",
+    "default_popup": "src/popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png"
+    }
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": { "default": "Alt+Shift+T" },
+      "description": "Ouvrir Torrent Connect"
+    }
+  },
+  "options_page": "src/options/options.html",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content/magnet.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    },
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["src/content/alert.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
