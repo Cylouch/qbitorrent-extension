@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/images/banniere-1400x560.png" alt="Torrent Connect" width="100%">
+  <img width="1400" height="560" alt="banniere-1400x560" src="https://github.com/user-attachments/assets/4f1a9c83-331c-459e-b2cb-e9f658fdb7f0" />
 </p>
 
 # Torrent Connect
@@ -63,7 +63,7 @@ Les options proposées s'adaptent au client : par exemple, catégories, étiquet
 ## Ajouter un torrent
 
 <p align="center">
-  <img src="docs/images/1-fenetre-ajout-sombre.png" alt="Fenêtre d'ajout d'un torrent" width="90%">
+  <img width="1280" height="800" alt="1-fenetre-ajout-sombre" src="https://github.com/user-attachments/assets/21ee9bad-ad7f-4362-b46f-b7ed525cd566" />
 </p>
 
 La fenêtre d'ajout s'ouvre :
@@ -95,7 +95,7 @@ Valide avec **Ajouter**, ou **Ctrl + Entrée**. L'extension te prévient si le t
 ## La popup
 
 <p align="center">
-  <img src="docs/images/2-popup.png" alt="Popup de l'extension" width="90%">
+  <img width="1280" height="800" alt="2-popup" src="https://github.com/user-attachments/assets/20d92e93-f469-4172-acb6-596d48178d9c" />
 </p>
 
 Un clic sur l'icône de l'extension ouvre la popup :
@@ -138,7 +138,7 @@ Le **profil de qualité** (Paramètres › Profil de qualité) décide quelle ve
 ## Personnaliser
 
 <p align="center">
-  <img src="docs/images/4-themes.png" alt="Thèmes clair et sombre" width="90%">
+  <img width="1280" height="800" alt="4-themes" src="https://github.com/user-attachments/assets/30b6dd9f-cca8-4330-bc49-7e71e069c544" />
 </p>
 
 Dans **Paramètres › Apparence** :
@@ -148,11 +148,11 @@ Dans **Paramètres › Apparence** :
 - affichage **confortable ou compact**, animations activables.
 
 <p align="center">
-  <img src="docs/images/5-parametres.png" alt="Page des paramètres" width="90%">
+  <img width="1280" height="800" alt="5-parametres" src="https://github.com/user-attachments/assets/5d81c52b-39ce-4e1d-af3c-ea09e419ee46" />
 </p>
 
 <p align="center">
-  <img src="docs/images/3-fenetre-ajout-claire.png" alt="Fenêtre d'ajout en thème clair" width="90%">
+  <img width="1280" height="800" alt="3-fenetre-ajout-claire" src="https://github.com/user-attachments/assets/0fdbb8d0-8921-4ea7-b31a-85cdfeb68cdf" />
   <br><em>La fenêtre d'ajout en thème clair, accent violet.</em>
 </p>
 
