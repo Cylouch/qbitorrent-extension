@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Explorateur du serveur</title>
+  <script src="../lib/theme-boot.js"></script>
+  <link rel="stylesheet" href="../common.css">
+  <link rel="stylesheet" href="../ui/explorer.css">
+  <link rel="stylesheet" href="files.css">
+  <script type="module" src="files.js"></script>
+</head>
+<body>
+<div class="app">
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo" data-icon="logo"></span>
+      <span>Explorateur du serveur</span>
+    </div>
+    <div class="pill" id="serverPill" title="Serveur qBittorrent">
+      <span class="dot wait" id="serverDot"></span>
+      <span id="server">Connexion…</span>
+    </div>
+    <button type="button" class="btn btn-ghost btn-sm" id="feedsBtn" title="Derniers films et séries de tes indexeurs"><i data-icon="sparkles"></i>Nouveautés</button>
+    <button type="button" class="btn btn-ghost btn-icon" id="themeBtn"></button>
+    <button type="button" class="btn btn-ghost btn-icon" id="settingsBtn" title="Paramètres"><i data-icon="settings"></i></button>
+  </header>
+
+  <div id="banner" class="banner error" hidden>
+    <i data-icon="alert"></i>
+    <span class="grow" id="bannerText"></span>
+    <button id="bannerBtn" type="button" class="btn btn-sm" hidden>Ouvrir les paramètres</button>
+  </div>
+
+  <main class="files-main" id="explorer"></main>
+</div>
+</body>
+</html>
